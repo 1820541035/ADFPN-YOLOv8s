@@ -18,7 +18,7 @@ A systematic scene-partition analysis on VisDrone2019-DET:
 |------------|---------------------|-------------|---------------------|
 | Complex Background | Texture confusion, high false positives | **SimAM (MASP)** | +1.3 |
 | Open Scene | Distant small-object spatial loss | **P2 Layer** | **+2.0** |
-| Multi-Scale | Extreme scale variation | **BiFPN Fusion** | +1.6 |
+| Multi-Scale | Extreme scale variation | **ADFPN Fusion** | +1.6 |
 | General Urban | Combined challenges | **ADFPN-YOLOv8s (all)** | +1.5 |
 
 This validates that the three modules play **complementary** rather than redundant roles.
