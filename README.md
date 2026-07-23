@@ -16,7 +16,7 @@
 
 Small object detection from low-altitude UAV imagery faces three fundamental challenges: (i) progressive loss of weak features during cross-level fusion, (ii) severe interference from cluttered backgrounds, and (iii) insufficient fine-grained representations for tiny objects. We propose **ADFPN-YOLOv8s**, an improved detection framework built upon YOLOv8s, featuring three complementary innovations:
 
-- **ADFPN** (Attention-based Dynamic Feature Pyramid Network) — A three-branch dynamic fusion pyramid that combines SimAM parameter-free attention with learnable ReLU-normalized weights, enabling selective cross-level fusion that amplifies small-object signals while preserving multi-scale context.
+- **ADFPN** (Attention-based Dynamic Feature Pyramid Network) — A three-branch dynamic fusion pyramid that combines SimAM parameter-free attention with learnable Leaky ReLU-normalized weights, enabling selective cross-level fusion that amplifies small-object signals while preserving multi-scale context.
 - **MASP** (Multi-scale Attention Spatial Pyramid Pooling) — A small-kernel pooling structure enhanced by EMA attention, designed to suppress cluttered backgrounds while retaining fine-grained contextual details.
 - **P2 Detection Layer** — A high-resolution detection branch that directly exploits shallow spatial details, reducing the minimum detectable object size and compensating for the loss of extremely small object features in deep networks.
 
